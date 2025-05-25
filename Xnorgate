@@ -1,0 +1,4 @@
+<pre> ### XNOR Gate Verilog Module This module implements a basic XNOR gate using Verilog.
+```verilog module top_module( input a, input b, output out ); 
+assign out = ~(a ^ b);
+endmodule ``` </pre>
